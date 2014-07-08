@@ -1,0 +1,21 @@
+<텀블러(tumblr.com)웹사이트 레이아웃 분석>
+
+- 바디 내부에 큰 컨테이너로 감싸고 있다.
+- 헤더라는 id를 가진 div 안에 로고랑 네비게이션 바, 서치박스가 있다
+ 	- 로고는 float:left를 해놓고 마진값으로 위치를 조정했다.
+	- tabs_outer_container라고 네비게이션바, 서치박스를 묶어놓은게 있는데 absolute로 해놓고 top:0 right:0 하고 마진값으로 조정했다.
+		- 그 안에 tab_bar는 float:right하고 위에 패딩 넣어서 조정
+			- 아이콘 하나하나는 position:relative
+			- 아이콘 밑에 현재 화면 가리키는 화살표 있는데 그건 position:relative
+- sidebar_footer가 있음.position:fixed되서 움직임.bottom:0 left:50% width:900px	
+- content디브	
+	- right_column 디브
+		- position:relative float:right width:215px
+		- 안에 ul li로 컨텐츠들 들어감
+	- left-column 디브 	
+		- float:left width:625px;
+		- 안에 ol li로 컨텐츠들 들어감
+			
+	
+		
+	

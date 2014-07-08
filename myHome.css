@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+.title {
+	float: right;
+}
+
+.title h1 {
+	font-size: 5em;
+}
+
+.title h4 {
+	color:#a09e92;
+}
+body {
+	min-width: 1050px;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#navigation {
+	clear: both;
+}
+
+.jumbotron {
+	width: 750px;
+}
+#aside {
+	float: left;
+}
+
+#aside2 {
+	float: right;
+	border: 3px solid #f9f4e0;
+	padding: 10px;
+	width: 250px;	
+}
+
+.profile img {
+	width: 200px;
+}
+
+.profile h2 {
+	color: #4f4242;
+}
+
+.profile h5 {
+	color:#a09e92;
+	font-size: 11pt;
+}
+
+section {
+	padding-top: 20px;
+}
+
+#footer {
+	clear:both;
+	text-align: center;
+}
+
+.footer_links li {
+	display: inline-block;
+	list-style: none;
+	color: #cacfcf;
+	font-weight: 200;
+	padding: 5px;
+}
