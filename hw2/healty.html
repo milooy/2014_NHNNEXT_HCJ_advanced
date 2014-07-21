@@ -19,6 +19,8 @@
 				for(var i=0; i<3; i++) {
 					xs[i].addEventListener('mousedown', function(e) {
 						alert(e.target.innerText + this.strTexts);
+                                        //잘 했네요. bind의 활용법 잘 기억해보세요.
+                                        //수업때 배운 내용 반복적으로 구현해보시고요
 					}.bind(this), false);
 				}
 			}
