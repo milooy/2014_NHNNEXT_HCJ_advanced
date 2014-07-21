@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<ul>
+		<li id="a">선식</li>
+		<li id="b">토마토</li>
+		<li id="c">마늘</li>
+	</ul>
+<script>
+	var obj = {
+			strTexts : "몸에 좋지롱",
+			registerEvents: function() {
+				//strTexts는 this.strTexts로만 접근가능
+				var xs = document.querySelectorAll("li");
+				for(var i=0; i<3; i++) {
+					xs[i].addEventListener('mousedown', function(e) {
+						alert(e.target.innerText + this.strTexts);
+					}.bind(this), false);
+				}
+			}
+	};
+	
+	obj.registerEvents();
+</script>
+</body>
+</html>
