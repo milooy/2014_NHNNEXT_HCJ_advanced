@@ -1,0 +1,12 @@
+section {
+  margin : 50px auto 0px;
+  outline : 1px solid gray;
+  width  :500px;
+  text-align : center;
+  padding : 20px;
+}
+
+h2 {
+  color : coral;
+}
+
